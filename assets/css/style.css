@@ -239,6 +239,11 @@ body.nav-active { overflow: hidden; }
 .label-2 { font-size: var(--fontSize-label-2); }
 
 
+.card-banner .img-holder{
+  width: 285px;
+  height: 336px ;
+}
+
 
 
 
@@ -552,8 +557,9 @@ body.nav-active { overflow: hidden; }
   letter-spacing: 16px;
   padding-inline-start: 16px;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-stroke: 0.5px var(--eerie-black-3);
   animation: loadingText linear 2s infinite;
 }
@@ -796,6 +802,8 @@ body.nav-active { overflow: hidden; }
   height: 100%;
   transform: scale(1.15);
   pointer-events: none;
+
+  -webkit-user-select: none;
   user-select: none;
   z-index: -1;
 }
